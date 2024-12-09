@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hackmycareer.lol/sitemap-index.xml
+Sitemap: https://www.hackmycareer.lol/sitemap-index.xml

@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://hackmycareer.lol",
+	site: "https://www.hackmycareer.lol",
 	integrations: [tailwind(), sitemap()],
 	output: "static",
 	adapter: vercelStatic(),
