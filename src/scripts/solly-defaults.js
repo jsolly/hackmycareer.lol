@@ -30,9 +30,9 @@ const sollyDefaults = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-	const applyDefaultsButton = document.getElementById("apply-defaults-button");
+	const sollyDefaultsButton = document.getElementById("solly-defaults-button");
 
-	applyDefaultsButton.addEventListener("click", () => {
+	sollyDefaultsButton.addEventListener("click", () => {
 		document.getElementById("include-keywords").value =
 			sollyDefaults.includeKeywords.join(", ");
 		document.getElementById("exclude-keywords").value =

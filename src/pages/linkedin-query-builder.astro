@@ -27,7 +27,7 @@ import Layout from "../layouts/Layout.astro";
     <!-- Analyze Button -->
     <div class="mt-4 flex space-x-4">
       <button id="analyze-button" class="px-4 py-2 bg-blue-500 text-white rounded">Extract Keywords</button>
-      <button id="apply-defaults-button" class="px-4 py-2 bg-green-500 text-white rounded">Apply Solly's Search Query</button>
+      <button id="solly-defaults-button" class="px-4 py-2 bg-green-500 text-white rounded">Apply Solly's Search Query</button>
     </div>
 
     <!-- Loading Spinner -->
@@ -98,8 +98,8 @@ import Layout from "../layouts/Layout.astro";
 
   </div>
 
-  <script src="../scripts/linkedin-query-builder.js"></script>
-  <script src="../scripts/solly-defaults.js"></script>
+  <script src="/src/scripts/linkedin-query-builder.js"></script>
+  <script src="/src/scripts/solly-defaults.js"></script>
 
   <style>
     .loading-dots .dot {
